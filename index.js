@@ -18,6 +18,23 @@ var playermap = new Map();
 var gameAvgScore=0;
 var resultjson = {};
 var playerslist = [];
+var express = require('express');
+var app = express();
+
+
+app.use(express.static('public'));
+let PORT = process.env.PORT;
+if (PORT == null || PORT == "") {
+  PORT = 5100;
+}
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}...`);
+  
+});
+
+
+
 
 //mqtt connection object 
 
