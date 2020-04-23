@@ -21,7 +21,7 @@ var playerslist = [];
 var express = require('express');
 var app = express();
 
-
+// created node server with express
 app.use(express.static('public'));
 let PORT = process.env.PORT;
 if (PORT == null || PORT == "") {
