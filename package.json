@@ -12,7 +12,7 @@
   "dependencies": {
     "bundle": "^2.1.0",
     "express": "^4.17.1",
-    "firebase-admin": "^8.10.0",
+    "firebase-admin": "^11.4.1",
     "mqtt": "^3.0.0",
     "production": "0.0.2",
     "save": "^2.4.0"
